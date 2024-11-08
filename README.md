@@ -3,6 +3,12 @@ This script simply changes the environment between GUI and CLI.
 
 The changes will take effect after the next power-on.
 
+Place file to /bin in linux without extension and use command directly in terminal.
+```
+sudo chmod +x /bin/cgui
+```
+
+
 internal commands are used:
 ```
 sudo systemctl set-default graphical.target
